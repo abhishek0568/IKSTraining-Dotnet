@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "25a9d359-959f-4c55-8493-38fc6472c608": {
+      "ProjectGuid": "25a9d359-959f-4c55-8493-38fc6472c608",
+      "DisplayName": "MovieApp.UI",
+      "ColorIndex": 0
+    },
+    "52403d0d-78d5-48af-a702-1bf9085b022f": {
+      "ProjectGuid": "52403d0d-78d5-48af-a702-1bf9085b022f",
+      "DisplayName": "MovieAPI",
+      "ColorIndex": 1
+    },
+    "448d4bf2-e1cd-4b16-9806-13d74ab93ad1": {
+      "ProjectGuid": "448d4bf2-e1cd-4b16-9806-13d74ab93ad1",
+      "DisplayName": "MovieApp.Business",
+      "ColorIndex": 2
+    },
+    "bd582c14-f4a1-4ccf-9e13-f1dd15118252": {
+      "ProjectGuid": "bd582c14-f4a1-4ccf-9e13-f1dd15118252",
+      "DisplayName": "MovieApp.Data",
+      "ColorIndex": 3
+    },
+    "ae025667-3475-4f4b-9377-36afabae72e6": {
+      "ProjectGuid": "ae025667-3475-4f4b-9377-36afabae72e6",
+      "DisplayName": "MovieApp.Entity",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 5
+}

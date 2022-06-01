@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "veV6R1q02xVlum25f1Rx2i+689jYR/Sl81ATV1IUn3VDrwZsZfqV2ppDyHcBQI/TDvSB34gmKijzIWYl6nZNOQ==",
+  "success": true,
+  "projectFilePath": "E:\\IKS_training\\MovieCoreApp\\MovieApp.Entity\\MovieApp.Entity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
