@@ -4,6 +4,7 @@ using MovieApp.Entity;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -233,6 +234,7 @@ namespace MovieApp.UI.Controllers
             {
 
                 string endPoint = _configuration["WebAPiURL"] + "Movie/DeleteMovie?movieId=" + movieModel.MovieId;
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", TempData["token"].ToString());
                 using (var response = await client.DeleteAsync(endPoint))
                 {
                     if (response.StatusCode == System.Net.HttpStatusCode.OK)

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Mf95ctovNRpcKvgLO6SsUBHkOGj62tZNeCbr/iwB9s2Mx/wEH9QsYBjY4SCNsfcQj0L9uWt1FinYTmDwPW238w==",
+  "dgSpecHash": "dikVurxueEG9ZuNf44oSDUCPkVgWajIjB8qcHQjyPa67UsVz4kCoL4y9rK5DxlFfDLPoGIXFJlRRDIPl9VUnaA==",
   "success": true,
   "projectFilePath": "E:\\IKS_training\\MovieCoreApp\\MovieApp.UI\\MovieApp.UI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\fluentassertions\\6.7.0\\fluentassertions.6.7.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
