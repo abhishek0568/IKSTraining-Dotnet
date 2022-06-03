@@ -16,10 +16,16 @@ namespace MovieAPI.Controllers
             _bookingService = bookingService;
         }
 
-        [HttpPost]
+        [HttpPost("AddBooking")]
         public IActionResult AddBooking(BookingModel bookingModel)
         {
             return Ok(_bookingService.AddBooking(bookingModel)); 
+        }
+
+        [HttpGet("GetAllBookings")]
+        public IActionResult GetAllBookings()
+        {
+            return Ok(_bookingService.GetAllBooking());
         }
     }
 }

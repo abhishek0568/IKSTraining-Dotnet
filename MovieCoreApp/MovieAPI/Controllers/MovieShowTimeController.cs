@@ -52,5 +52,11 @@ namespace MovieAPI.Controllers
         }
 
 
+        [HttpGet("GetShowTimeAndDateForParticularTheatreAndMovie")]
+        public IActionResult GetShowTimeAndDateForParticularTheatreAndMovie(int mId)
+        {
+            return Ok(_MovieShowTimeService.GetShowTimeAndDateForParticularTheatreAndMovie(mId));
+        }
+
     }
 }

@@ -2,6 +2,7 @@
 using MovieApp.Entity;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace MovieApp.Data.Repositories
@@ -13,6 +14,12 @@ namespace MovieApp.Data.Repositories
         public Booking(MovieDbContext movieDbContext)
         {
             _movieDbContext = movieDbContext;
+        }
+
+        public List<BookingModel> GetAllBooking()
+        {
+                return _movieDbContext.bookingModel.ToList();
+            
         }
 
         public string RegisterBooking(BookingModel bookingModel)

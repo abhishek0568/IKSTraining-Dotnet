@@ -39,5 +39,11 @@ namespace MovieApp.Business.Services
         {
             return _movieShowTime.DeleteMovieShowTime(ShowId);
         }
+
+       
+        public object GetShowTimeAndDateForParticularTheatreAndMovie(int mId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

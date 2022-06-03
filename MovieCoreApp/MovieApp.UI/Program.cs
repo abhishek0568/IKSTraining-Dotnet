@@ -24,3 +24,6 @@ namespace MovieApp.UI
                 });
     }
 }
+
+// Tpken based authentication: JWT and OAuth token generated on the server side and by using authoriesd person and we can't see that token number
+// Login- Token-transfer, payment option(passing the token in every action method in mvc controller)
